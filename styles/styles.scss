@@ -9,7 +9,7 @@ body {
   font-style: normal;
   margin: 0;
   overflow-x: hidden;
-  -ms-overflow-style: none; /* IE and Edge */
+  -ms-overflow-style: none;
   scrollbar-width: none;
 }
 
@@ -102,12 +102,12 @@ body::-webkit-scrollbar {
     label {
       font-size: 70px;
       font-weight: 700;
-      line-height: 65px; /* 92.857% */
+      line-height: 65px;
     }
     span {
       font-size: 16px;
       font-weight: 400;
-      line-height: 25px; /* 156.25% */
+      line-height: 25px;
       width: 486px;
     }
     button {
@@ -152,7 +152,7 @@ body::-webkit-scrollbar {
   font-size: 90px;
   font-style: normal;
   font-weight: 700;
-  line-height: 65px; /* 72.222% */
+  line-height: 65px;
   text-transform: uppercase;
   user-select: none;
 
@@ -194,11 +194,6 @@ body::-webkit-scrollbar {
 
     &:hover {
       transform: scale(1.05);
-      // background: var(
-      //   --gradient-linear-primary,
-      //   linear-gradient(273deg, #ff4060 0%, #ff81c5 52.08%, #6d5eea 100%)
-      // );
-      // border-radius: 50%;
       z-index: 1;
       opacity: 1;
     }
